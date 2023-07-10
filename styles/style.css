@@ -22,6 +22,11 @@
   cursor: pointer;
 }
 
+.image {
+  width: 384px;
+  object-fit: cover;
+}
+
 .section-title {
   color: var(--title-text);
   font-family: Montserrat;
@@ -178,17 +183,33 @@
   align-items: center;
 }
 
-.about__image {
-  width: 384px;
-  object-fit: cover;
-}
-
 .about__title {
   margin-bottom: 28px;
 }
 
 .about__text {
   margin-bottom: 18px;
+}
+
+.benefits {
+  padding: 80px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.benefits__card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 50%;
+}
+
+.benefits__card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 126px;
 }
 
 
