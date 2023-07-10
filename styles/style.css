@@ -240,5 +240,63 @@
   object-position: center;
 }
 
+.reservation {
+  padding: 80px 120px;
+}
+
+.reservation__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__title {
+  margin-bottom: 24px;
+}
+
+.reservation__text {
+  display: block;
+  max-width: 30%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.reservation__list {
+  list-style: none;
+  margin-top: 88px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.reservation__card {
+  width: 384px;
+}
+
+.reservation__image {
+  height: 490px;
+  margin-bottom: 32px;
+}
+
+.reservation__card-title {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+
+.reservation__description {
+  min-height: 80px;
+  margin-bottom: 32px;
+}
+
+.reservation__link {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+
 .footer {
 }
