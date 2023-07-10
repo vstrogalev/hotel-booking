@@ -170,6 +170,28 @@
   background-position: 0 0;
 }
 
+.about {
+  padding: 80px 120px;
+  display: flex;
+  justify-content: start;
+  gap: 126px;
+  align-items: center;
+}
+
+.about__image {
+  width: 384px;
+  object-fit: cover;
+}
+
+.about__title {
+  margin-bottom: 28px;
+}
+
+.about__text {
+  margin-bottom: 18px;
+}
+
+
 
 .footer {
 }
