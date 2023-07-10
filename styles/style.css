@@ -212,7 +212,33 @@
   gap: 126px;
 }
 
+.interiers {
+  padding-top: 80px;
+}
 
+.interiers__title {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.interiers__collage {
+  margin: 0 auto;
+  height: 586px;
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.interiers__image_big {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.interiers__image {
+  object-fit: cover;
+  object-position: center;
+}
 
 .footer {
 }
