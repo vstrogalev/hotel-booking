@@ -1,4 +1,6 @@
 :root {
+  --pagination-link: #FAB04759;
+  --pagination-link-active: #FAB047;
   --main-text: #848FAC;
   --title-text: #192252;
   --link-color: #424F7B;

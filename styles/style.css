@@ -264,13 +264,11 @@
 .reservation__list {
   list-style: none;
   margin-top: 88px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 384px);
   justify-content: center;
+  justify-items: center;
   gap: 24px;
-}
-
-.reservation__card {
-  width: 384px;
 }
 
 .reservation__image {
@@ -279,6 +277,7 @@
 }
 
 .reservation__card-title {
+  display: block;
   color: #000;
   font-family: Montserrat;
   font-size: 24px;
@@ -297,6 +296,70 @@
   color: var(--link-color);
 }
 
+.reviews {
+  padding: 80px 120px;
+}
+
+.reviews__slider {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.reviews__slider-list {
+  list-style-type: none;
+  margin-bottom: 24px;
+}
+
+.reviews__slider-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews__slider-item-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 44px;
+}
+
+.reviews__slider-item-text {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reviews__slider-item-author {
+  color: var(--title-text);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.reviews__pagination-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviews__pagination-link {
+  display: block;
+  border-radius: 100%;
+  width: 8px;
+  height: 8px;
+  background-color: var(--pagination-link);
+}
+
+.reviews__pagination-link_active {
+  width: 12px;
+  height: 12px;
+  background-color: var(--pagination-link-active);
+}
 
 .footer {
 }
