@@ -369,11 +369,12 @@
 
 .footer {
   display: grid;
-  grid-template-columns: auto repeat(3, 190px);
-  gap: 92px;
+  grid-template-columns: 40% repeat(3, auto);
+  gap: 78px;
   padding: 116px 120px 120px;
   color: var(--footer-text);
   background-color: var(--footer-bg);
+  font-size: 16px;
 }
 
 .footer__logo {
